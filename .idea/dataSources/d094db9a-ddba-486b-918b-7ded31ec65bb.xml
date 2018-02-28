@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="hbulibrary@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="hbulibrary">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="jeecmsv8"/>
+    <schema id="5" parent="1" name="jingdong"/>
+    <schema id="6" parent="1" name="library"/>
+    <schema id="7" parent="1" name="mysql"/>
+    <schema id="8" parent="1" name="onlinejudge"/>
+    <schema id="9" parent="1" name="oracle_jingdong"/>
+    <schema id="10" parent="1" name="performance_schema"/>
+    <schema id="11" parent="1" name="taobao"/>
+    <schema id="12" parent="1" name="test"/>
+    <table id="13" parent="2" name="t_admin"/>
+    <table id="14" parent="2" name="t_book"/>
+    <table id="15" parent="2" name="t_card"/>
+    <table id="16" parent="2" name="t_type"/>
+    <column id="17" parent="13" name="admin_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="18" parent="13" name="admin_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="19" parent="13" name="admin_password">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="20" parent="14" name="book_num">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="21" parent="14" name="book_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="22" parent="14" name="writer">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="23" parent="14" name="call_number">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="24" parent="14" name="price">
+      <Position>5</Position>
+      <DataType>decimal(10,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="14" name="pub_company">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="26" parent="14" name="pub_date">
+      <Position>7</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="27" parent="14" name="total_num">
+      <Position>8</Position>
+      <DataType>longtext|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="14" name="current_num">
+      <Position>9</Position>
+      <DataType>longtext|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="14" name="brief">
+      <Position>10</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="15" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="15" name="card_num">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="15" name="card_pwd">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="15" name="name">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="15" name="max_num">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="15" name="book_num">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="16" name="sortId">
+      <Position>1</Position>
+      <DataType>longtext|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="16" name="sortName">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+  </database-model>
+</dataSource>
